@@ -1,4 +1,4 @@
-Welcome to LiftForward. Hopefully the following guide will help you get your workstation setup. 
+Welcome to LiftForward. Hopefully the following guide will help you get your workstation setup and deliver something into production. 
 
 # 1. Setup your new workstation
 
@@ -29,3 +29,14 @@ which you'll neeed. You're free to install others and modify this as needed.
  1. follow the setup instruction here: https://github.com/liftforward/lift
  1. follow the setup instruction here: https://github.com/liftforward/lift-admin
  1. follow the setup instruction here: https://github.com/liftforward/partner
+
+# 6. Deliver something to production
+ 1. Get a task from someone
+ 2. Implement it on a branch
+ 3. Push branch and create PR
+ 4. Get PR approved
+ 5. Merge it
+ 6. Test in staging
+ 7. Release it using github releases feature with a tag version formated as release-YYYY-MM-DD-01
+ 8. Verify it works in production
+ 9. Open a beer from the fridge
