@@ -21,3 +21,9 @@ run this to install homebrew on your new workstation
   
 This should install some common tools (basically Slack and 1Password) we use for development 
 which you'll neeed. You're free to install others and modify this as needed.
+
+# 4. Setup the API project
+ 1. follow the setup instruction here: https://github.com/liftforward/api
+ 
+# 5. Setup the Lift project
+ 1. follow the setup instruction here: https://github.com/liftforward/lift
