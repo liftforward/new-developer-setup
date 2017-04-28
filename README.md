@@ -45,7 +45,7 @@ You'll probably need help for this part so don't be afraid to ask.
  1. return the admin site and fund your order
  1. no more emails 
 
-# 6. Deliver something to production
+# 7. Deliver something to production
  1. Get a task from someone
  2. Implement it on a branch
  3. Push branch and create PR
