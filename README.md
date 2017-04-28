@@ -1,4 +1,4 @@
-Welcome to LiftForward. Hopefully the following guide will help you get your workstation setup and deliver something into production. 
+Welcome to LiftForward. Hopefully the following guide will help you get your workstation setup and deliver something into production. So far we have a 100% success rate of delivering to production on the first day. Don't let us down.
 
 # 1. Setup your new workstation
 
@@ -30,6 +30,21 @@ which you'll neeed. You're free to install others and modify this as needed.
  1. follow the setup instruction here: https://github.com/liftforward/lift-admin
  1. follow the setup instruction here: https://github.com/liftforward/partner
 
+# 6. Run through the user experiance once
+You'll probably need help for this part so don't be afraid to ask.
+
+ 1. startup the api project `foreman start`
+ 1. startup the lift project `ember server --proxy=http://localhost:3000`
+ 1. visit the microsoft site and submit an application http://localhost:4300/microsoft/surfacemembership
+ 1. check your inbox for the emails the site generates
+ 1. start the admin project `ember server --proxy=http://localhost:3000`
+ 1. visit the admin site and approve your application http://localhost:4200
+ 1. check your inbox for the site emails
+ 1. return to the lift application and checkout
+ 1. check inbox for more emails
+ 1. return the admin site and fund your order
+ 1. no more emails 
+
 # 6. Deliver something to production
  1. Get a task from someone
  2. Implement it on a branch
@@ -39,4 +54,4 @@ which you'll neeed. You're free to install others and modify this as needed.
  6. Test in staging
  7. Release it using github releases feature with a tag version formated as release-YYYY-MM-DD-01
  8. Verify it works in production
- 9. Open a beer from the fridge
+ 9. Go to fridge and have a beer your first day is over
