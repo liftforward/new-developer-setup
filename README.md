@@ -2,25 +2,26 @@ Welcome to LiftForward. Hopefully the following guide will help you get your wor
 
 # 1. Setup your new workstation
 
- 1. create a user etc on your mac
+ 1. create a new user and stuff on your mac
  1. use your own app store login
- 1. Turn on the screensaver to require password when locked! very important
+ 1. Turn on the screensaver to require password when locked! **very important**
 
-# 2. Install [Homebrew](https://brew.sh/)
+# 2. Fork our dotfiles directory
 
-run this to install homebrew on your new workstation
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+ Fork the https://github.com/mikegrassotti/dotfiles project. If you already have a dotfiles repo we should chat about next steps. After forking take a look at it's brewfile. There may be some stuff you don't want installed or extra stuff you do. The script installs a number useful tools we strongly recommend as well as some things we require. 
 
-# 3. Clone this repo
-  1. Create an access token for your machine [need instruction]
-  1. Clone this repo with `git clone https://github.com/liftforward/new-developer-setup`
-  1. Cd into this repo's working directory
-  1. run `brew bundle` 
-  
-This should install some common tools (basically Slack and 1Password) we use for development 
-which you'll neeed. You're free to install others and modify this as needed.
+You can also create an additional repo under your github account named `homebrew-brewfile` and add a single Brewfile. Our setup script will install these tools as well. 
+
+# 3. strap https://github.com/MikeMcQuaid/strap
+
+Strap is a setup script from github which will trigger your dotfiles and other things to setup your machine. To use is visit  https://osx-strap.herokuapp.com/ to generate a script custom to you and then run it:
+
+ ```
+ cd Downloads
+ bash bin/strap.sh
+ ```
+
+Hopefully this all works fine and you can move onto setting up and installing all our projects.
 
 # 4. Setup the API project
  1. follow the setup instruction here: https://github.com/liftforward/api
