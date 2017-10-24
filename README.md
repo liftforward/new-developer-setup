@@ -18,7 +18,8 @@ Strap is a setup script from github which will trigger your dotfiles and other t
 
  ```
  cd Downloads
- bash bin/strap.sh
+ bash strap.sh
+ rm strap.sh
  ```
 
 Hopefully this all works fine and you can move onto setting up and installing all our projects.
