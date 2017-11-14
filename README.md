@@ -22,7 +22,7 @@ Welcome to LiftForward. Hopefully the following guide will help you get your wor
 * [Admin](https://github.com/liftforward/lift-admin)
 
 ## RabbitMQ Links
-* [Local](http://localhost:15672/#/queues)
+* [Local](http://localhost:15672/#/queues) (username: `guest`, password: `guest`)
 * [Staging](https://golden-raven.rmq.cloudamqp.com/#/)
 * [Production](https://silver-hornet.rmq.cloudamqp.com/#/)
 
