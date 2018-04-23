@@ -42,7 +42,7 @@ You can also create an additional repo under your github account named `homebrew
 
 # 4. strap https://github.com/MikeMcQuaid/strap
 
-Strap is a setup script from github which will trigger your dotfiles and other things to setup your machine. To use is visit  https://macos-strap.herokuapp.com to generate a script custom to you and then run it:
+Strap is a setup script from github which will trigger your dotfiles and other things to setup your machine. Visit this link:  https://macos-strap.herokuapp.com to generate a script custom to you (by following the instructions on the site) and then run it with the following commands:
 
  ```
  cd Downloads
