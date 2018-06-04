@@ -59,7 +59,7 @@ You'll probably need help for this part so don't be afraid to ask.
 
  1. startup the api project `foreman start`
  1. startup the lift project `ember server --proxy=http://localhost:3000`
- 1. visit the microsoft site and submit an application http://localhost:4300/microsoft/surfacemembership
+ 1. visit the microsoft site and submit an application http://localhost:4300/microsoft/compare
  1. check your inbox for the emails the site generates
  1. start the admin project `ember server --proxy=http://localhost:3000`
  1. visit the admin site and approve your application http://localhost:4200
