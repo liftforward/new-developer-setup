@@ -17,6 +17,7 @@ Welcome to LiftForward. Hopefully the following guide will help you get your wor
 * [Adminium](https://www.adminium.io/)
 
 ## Git Repos
+* [DAAS](https://github.com/liftforward/daas-service)
 * [API](https://github.com/liftforward/api)
 * [Lift](https://github.com/liftforward/lift)
 * [Admin](https://github.com/liftforward/lift-admin)
@@ -27,6 +28,7 @@ Welcome to LiftForward. Hopefully the following guide will help you get your wor
 * [Production](https://silver-hornet.rmq.cloudamqp.com/#/)
 
 ## Localhost
+* [DAAS](http://localhost:3001/)
 * [Lift](http://localhost:4300/)
 * [Admin](http://localhost:4200/)
 
@@ -45,6 +47,9 @@ You can also create an additional repo under your github account named `homebrew
 Strap is a setup script from github which will trigger your dotfiles and other things to setup your machine. Visit this link:  https://macos-strap.herokuapp.com to generate a script custom to you by following the instructions on the site.
 
 Hopefully this all works fine and you can move onto setting up and installing all our projects.
+
+# 5. Setup the DAAS project
+ 1. follow the setup instruction here: https://github.com/liftforward/daas-service
 
 # 5. Setup the API project
  1. follow the setup instruction here: https://github.com/liftforward/api
