@@ -8,12 +8,12 @@ Welcome to LiftForward. Hopefully the following guide will help you get your wor
 
 # 2. Bookmark these pages
 ## General
+* [DevOps](https://dev.azure.com/liftforwardinc/LiftForward/_boards/board/t/LiftForward%20Team/Stories)
 * [Codeship](https://app.codeship.com/liftforward)
 * [Heroku](https://dashboard.heroku.com/teams/liftforward/apps)
 * [Percy](https://percy.io/liftforward/lift)
 * [Airtable](https://airtable.com/tblp2HzmXnhu4p69o/viw5cR3FQOJm5DDiS)
 * [DBInsights](https://www.dbinsights.io/reports)
-* [Trello](https://trello.com/b/0FXL7eYE/tech-priorities)
 * [Adminium](https://www.adminium.io/)
 
 ## Git Repos
